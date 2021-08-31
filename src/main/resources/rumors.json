@@ -101,11 +101,29 @@
       ]
     },
     {
-      "name":"My wife's annoying character",
+      "name":"Griselda",
       "rumorList":[
         {
           "type":"NEUTRAL",
-          "text":"She believes she was birthed from the earth itself."
+          "text":"Despite many experiences to the contrary Griselda believes that she was born out of a hole in the ground which she lovingly refer to as my \"hobbit hole\", this is due to a certain friend's influence."
+        },
+        {
+          "type":"POSITIVE",
+          "text":" I was in charge of the nursery unit when the senior cleric took the day off."
+        },
+        {
+          "type":"FALSE",
+          "text":"Griselda's strange beliefs and habits are often exemplified in the fact that she eats dirt.."
+        },
+
+        {
+          "type":"NEGATIVE",
+          "text":"Griselda will rarely return things she has borrowed, unless reminded frequently."
+        },
+
+        {
+          "type":"NEGATIVE",
+          "text":"Griselda is farrrrrrrrr too eager to help those in need and can be very easily manipulated."
         }
       ]
     }
