@@ -126,6 +126,33 @@
           "text":"Griselda is farrrrrrrrr too eager to help those in need and can be very easily manipulated."
         }
       ]
+    },
+    {
+      "name":"Malacus",
+      "rumorList":[
+        {
+          "type":"NEGATIVE",
+          "text":"Malacus lives with his parents still."
+        },
+        {
+          "type":"FALSE",
+          "text":"Malacus has been using performance enhancing substances."
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"Malacus has trouble reading letters and failed out of wizard school because of it."
+        },
+
+        {
+          "type":"POSITIVE",
+          "text":"Malacus was a math-lete before he got into \"proper athletics\"."
+        },
+
+        {
+          "type":"POSITIVE",
+          "text":"Malacus used to moonlight as a taxi driver (carts, chariots, and carriage."
+        }
+      ]
     }
   ]
 }
