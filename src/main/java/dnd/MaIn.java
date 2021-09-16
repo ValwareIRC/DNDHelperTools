@@ -10,13 +10,16 @@ import java.io.IOException;
 public class MaIn {
     final static String TUES = "rumors.json";
     final static String THURS = "rumors2.json";
+    public static final boolean NEWGAME = false;
 
     public static void main(String... main) throws IOException {
         Data data = new Loader().load(THURS);
 
         generateMyRumors(data, null);
-        for (Person person : data.people) {
-            generateMyRumors(data, person);
+        if(NEWGAME) {
+            for (Person person : data.people) {
+                generateMyRumors(data, person);
+            }
         }
 
     }
