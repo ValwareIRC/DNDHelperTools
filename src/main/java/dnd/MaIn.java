@@ -8,12 +8,29 @@ import dnd.service.Loader;
 import java.io.IOException;
 
 public class MaIn {
-    public static void main(String... main) throws IOException {
-        Data data = new Loader().load();
+    final static String TUES = "rumors.json";
+    final static String THURS = "rumors2.json";
 
-        StringBuffer buff = new StringBuffer(1000);
+    public static void main(String... main) throws IOException {
+        Data data = new Loader().load(THURS);
+
+        generateMyRumors(data, null);
         for (Person person : data.people) {
-            int index = (int)(Math.random() * person.rumorList.size());
+            generateMyRumors(data, person);
+        }
+
+    }
+
+    private static void generateMyRumors(Data data, Person whom) {
+        StringBuffer buff = new StringBuffer(1000);
+        if (whom == null) {
+            buff.append("\nDM, These are commonly held rumors.\n\n");
+        } else {
+            buff.append("\nDM, Send this to : " + whom.name+"\n\n");
+        }
+        for (Person person : data.people) {
+            if (person /*same as*/ == whom) continue;
+            int index = (int) (Math.random() * person.rumorList.size());
             Rumor rumor = person.rumorList.get(index);
 
             buff.append("A rumor I know about ").append(person.name)
@@ -22,6 +39,5 @@ public class MaIn {
         }
 
         System.out.println(buff.toString());
-
     }
 }

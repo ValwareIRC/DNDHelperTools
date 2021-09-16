@@ -1,0 +1,104 @@
+{
+  "people":[
+    {
+      "name":"Celia",
+      "rumorList":[
+        {
+          "type":"FALSE",
+          "text":"Celia lip synced the song that won her the bard off against her rival teacher."
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"Celia tends to forget peoples names and gives them nicknames they don't like instead of correcting herself"
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"Celia will do anything to become the goblincore grand musician."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"Celia likes to hang out with goblins."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"Celia forced one of her teachers to retire after graduation with a bard off."
+        }
+      ]
+    },
+    {
+      "name":"Terranda Alquore",
+      "rumorList":[
+        {
+          "type":"POSITIVE",
+          "text":"Being a beefy woman in very unique armor draws attention and is certainly intimidating, but because of that attention it's become decently common knowledge that she mean no harm and will probably do just about any physical labor you can find for her."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"One time she was helping someone saddle their horses for a new day of work and they got belted right across the jaw with her hoof, someone saw her touch the man's face and heal it with a splash of water."
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"People will stretch the truth just to entertain someone, and her appearance alone is inspiration for that. At a pub the other day I heard someone say to their pal that they think she was the child of a nautilus."
+        },
+        {
+          "type":"FALSE",
+          "text":"She may be a revenant come to hunt some poor horny sailor down for cheating on his wife with me."
+        },
+        {
+          "type":"FALSE",
+          "text":"She's some sort of swindler and that's the only reason she wear this armor, is to hide that from people. Maybe she is hiding who she is from these people..."
+        }
+      ]
+    },
+    {
+      "name":"HIM",
+      "rumorList":[
+        {
+          "type":"FALSE",
+          "text":"It’s said that Him is called that because when he walked into the center of town someone said “What are we gonna do with him?”"
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"Him crawled out of the graveyard. When the villagers entered the graveyard one of the mausoleums was destroyed."
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"He remember very little and am very single minded so it can be both easy to lie to him but hard to get him to do stuff."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"Him is relatively quiet but will from time to time will say some deep meditative point about the world."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"If you need a problem solved Him is willing to help."
+        }
+      ]
+    },
+    {
+      "name":"AYA",
+      "rumorList":[
+        {
+          "type":"NEUTRAL",
+          "text":"Aya was abandoned in the forest by her parents."
+        },
+        {
+          "type":"NEUTRAL",
+          "text":"One day she was found by a traveling group of mercenaries, which picked her up, clothed her, taught her how to speak and how to fight."
+        },
+        {
+          "type":"POSITIVE",
+          "text":"She was brought into higher positions and led her former group into victory several times."
+        },
+        {
+          "type":"NEGATIVE",
+          "text":"The captain of her former group became a pain to deal with, which caused a falling out between Aya and the group."
+        },
+        {
+          "type":"FALSE",
+          "text":"She has no qualms about murdering innocence and women. A trail of destruction follows her wake."
+        }
+      ]
+    }
+  ]
+}

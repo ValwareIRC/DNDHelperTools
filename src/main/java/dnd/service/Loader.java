@@ -9,12 +9,11 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 
 public class Loader {
-    final static String FILE = "rumors.json";
 
     Gson gson = new Gson();
 
-    public Data load() throws IOException {
-        try(InputStream stream = this.getClass().getClassLoader().getResourceAsStream(FILE);){
+    public Data load(String file) throws IOException {
+        try(InputStream stream = this.getClass().getClassLoader().getResourceAsStream(file);){
             String text = IOUtils.toString(stream, Charset.defaultCharset());
             return gson.fromJson(text, Data.class);
         }
