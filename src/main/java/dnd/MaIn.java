@@ -13,7 +13,10 @@ public class MaIn {
     public static final boolean NEWGAME = false;
 
     public static void main(String... main) throws IOException {
-        Data data = new Loader().load(THURS);
+        Data data = new Loader().load(
+                //TUES
+                THURS
+        );
 
         generateMyRumors(data, null);
         if(NEWGAME) {

@@ -51,27 +51,27 @@
       ]
     },
     {
-      "name":"HIM",
+      "name":"Pistachio",
       "rumorList":[
         {
           "type":"FALSE",
-          "text":"It’s said that Him is called that because when he walked into the center of town someone said “What are we gonna do with him?”"
+          "text":"Pistachio actually owns a little squirrel drug-house in the forest, it's only for squirrels, but she uses it to keep control of them and has a hidden squirrel army."
         },
         {
           "type":"NEGATIVE",
-          "text":"Him crawled out of the graveyard. When the villagers entered the graveyard one of the mausoleums was destroyed."
+          "text":"Pistachio once burned down a small inn when she was drunk."
         },
         {
           "type":"NEGATIVE",
-          "text":"He remember very little and am very single minded so it can be both easy to lie to him but hard to get him to do stuff."
+          "text":"Pistachio loves to drink, and pretends she can't control her magic when she's drunk and does little magic pranks."
         },
         {
           "type":"POSITIVE",
-          "text":"Him is relatively quiet but will from time to time will say some deep meditative point about the world."
+          "text":"Pistachio loves to leave tiny gifts for people when she thinks they don't notice."
         },
         {
           "type":"POSITIVE",
-          "text":"If you need a problem solved Him is willing to help."
+          "text":"Pistachio has a secret recipe for the best little cakes anyone has tried, and while she won't share the recipe, she shares the cakes as often as possible."
         }
       ]
     },
@@ -97,6 +97,31 @@
         {
           "type":"FALSE",
           "text":"She has no qualms about murdering innocence and women. A trail of destruction follows her wake."
+        }
+      ]
+    },
+    {
+      "name": "Nathalie \"Nathan\" Tremblay",
+      "rumorList": [
+        {
+          "type": "NEGATIVE",
+          "text": "Notoriously horny, has been kicked out of places for making the women feel uncomfortable"
+        },
+        {
+          "type": "NEGATIVE",
+          "text": "Deeply hates non-humans, extremely racist"
+        },
+        {
+          "type": "POSITIVE",
+          "text": "Everyone thinks she's a dude"
+        },
+        {
+          "type": "POSITIVE",
+          "text": " police chief found out she was a girl and tried to assault her, she murdered that mfer."
+        },
+        {
+          "type": "FALSE",
+          "text": "Born a human, cursed to become fish as a baby"
         }
       ]
     }
